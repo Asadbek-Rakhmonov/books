@@ -6,3 +6,4 @@ int main() {
 
 	std::cout << i << " " << ri << std::endl; // 10 10
 }
+
