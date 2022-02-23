@@ -1,8 +1,13 @@
 #include <iostream>
 #include <string>
+using std::string; using std::cout; using std::getline; using std::cin;
 
+using namespace std;
 int main() {
-	double d = 10.2;
-	const int &a = d;
-	std::cout << a;
+	string s;
+	//cin >> s;
+	getline(cin, s);
+	//if(!s.empty()) cout << "empty";
+	auto size = s.size();
+	cout << s << '\n' << size;
 }
